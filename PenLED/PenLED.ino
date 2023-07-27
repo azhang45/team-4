@@ -1,7 +1,8 @@
+// Adafruit Feather nRF52840 Express
 const int LEDs[3][2] = {
-  {5, 2},
-  {4, 1},
-  {3, 0}
+  {5, 10},
+  {6, 11},
+  {9, 12}
 };
 
 const char ASCII[45] = {
@@ -11,7 +12,7 @@ const char ASCII[45] = {
   '.', ',', '!', '?', ':', ';', ' ', '-', '/'
 };
 
-const PinStatus BRAILLE[45][3][2] = {
+const bool BRAILLE[45][3][2] = {
   {{HIGH, LOW}, {LOW, LOW}, {LOW, LOW}},   // a
   {{HIGH, LOW}, {HIGH, LOW}, {LOW, LOW}},  // b
   {{HIGH, HIGH}, {LOW, LOW}, {LOW, LOW}},  // c
