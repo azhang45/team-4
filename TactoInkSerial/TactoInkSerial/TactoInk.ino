@@ -18,7 +18,6 @@ int buttonState = HIGH, prevButtonState = HIGH;
 String initial = "SET";
 String text = initial;
 
-
 const int PIN[3][2] = {
   {6, 11},
   {9, 12},
